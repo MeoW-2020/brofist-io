@@ -1,9 +1,9 @@
 /* v1.3 */
 :root{
-	--primary-color: #12242c;
-	--secondary-color: #14111a;
-	--accent-color-1: #00ffff;
-	--accent-color-2: #0a888c;
+	--primary-color: #0e0c1d;
+	--secondary-color: #07060e;
+	--accent-color-1: #a970ff;
+	--accent-color-2: #553982;
 	--text-color: #dcddde;
 }
 body{
@@ -59,7 +59,7 @@ img[src="/img/icons/menu.svg"]{ /*кнопка с тремя полосками*
 	position: relative;
 	top: 17px;
 	padding: 0 12px!important;
-	filter: invert(1) brightness(50%) sepia(1) hue-rotate(144deg) saturate(1000%) brightness(115%);
+	filter: invert(1) brightness(50%) sepia(1) hue-rotate(205.5deg) saturate(1000%) brightness(115%);
 }
 a[href="/"]{ /*BROFIST.IO*/
 	margin-right:auto;
