@@ -1,4 +1,4 @@
-/* v1.3 */
+/* v1.3 by Bro_MeoW */
 :root{
 	--primary-color: #122425;
 	--secondary-color: #14111a;
@@ -365,6 +365,17 @@ div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizi
 div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div + div > div:nth-child(2) div div:nth-child(3):hover{
 	border: 1px solid rgb(255, 72, 72)!important;
 	background: rgb(255, 72, 72)!important;
+	color: var(--secondary-color)!important;
+}
+div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(2) div[style*="width: 55px;"]{
+	margin: 4px 3px!important;
+	background: none!important;
+	border: 1px solid rgb(46, 190, 52)!important;
+	color: rgb(46, 190, 52)!important;
+}
+div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(2) div[style*="width: 55px;"]:hover{
+	border: 1px solid rgb(46, 190, 52)!important;
+	background: rgb(46, 190, 52)!important;
 	color: var(--secondary-color)!important;
 }
 /*кнопки листания страниц*/
