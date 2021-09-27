@@ -367,6 +367,17 @@ div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizi
 	background: rgb(255, 72, 72)!important;
 	color: var(--secondary-color)!important;
 }
+div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(2) div[style*="width: 55px;"]{
+	margin: 4px 3px!important;
+	background: none!important;
+	border: 1px solid rgb(46, 190, 52)!important;
+	color: rgb(46, 190, 52)!important;
+}
+div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(2) div[style*="width: 55px;"]:hover{
+	border: 1px solid rgb(46, 190, 52)!important;
+	background: rgb(46, 190, 52)!important;
+	color: var(--secondary-color)!important;
+}
 /*кнопки листания страниц*/
 div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] > div:nth-child(1) > div:last-of-type > div[style*="width: 23px"],
 div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(1) > div:last-of-type > div[style*="width: 23px"],
