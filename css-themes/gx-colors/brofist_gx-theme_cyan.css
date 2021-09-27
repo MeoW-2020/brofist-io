@@ -1,10 +1,10 @@
-/* v1.3 */
+/* v1.3 by Bro_MeoW */
 :root{
-	--primary-color: #12242c;
-	--secondary-color: #14111a;
-	--accent-color-1: #00ffff;
-	--accent-color-2: #0a888c;
-	--text-color: #dcddde;
+    --primary-color: #12242c;
+    --secondary-color: #14111a;
+    --accent-color-1: #00ffff;
+    --accent-color-2: #0a888c;
+    --text-color: #dcddde;
 }
 body{
     font-family: "Comic Sans MS", "Comic Sans"!important;
@@ -13,7 +13,7 @@ body{
     color: var(--text-color);
 }
 a{
-	color: var(--accent-color-1)!important;
+    color: var(--accent-color-1)!important;
 }
 .loadingOverlay, #yo, .overlay{
     background: #00000075!important;
@@ -30,10 +30,10 @@ a{
 }
 /**********СКИН ЭДИТОР**********/
 label[for="skinPicker"] {
-	display: block;
-	box-sizing: border-box;
-	width: 100%;
-	height: 50px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
     cursor: pointer;
     text-align: center;
     color: #fff;
@@ -55,80 +55,80 @@ div[style="background: #f5f5f5;width: 100%;float: left;height: 50px;margin-top: 
     position: relative;
 }
 img[src="/img/icons/menu.svg"]{ /*кнопка с тремя полосками*/
-	background: transparent!important;
-	position: relative;
-	top: 17px;
-	padding: 0 12px!important;
-	filter: invert(1) brightness(50%) sepia(1) hue-rotate(144deg) saturate(1000%) brightness(115%);
+    background: transparent!important;
+    position: relative;
+    top: 17px;
+    padding: 0 12px!important;
+    filter: invert(1) brightness(50%) sepia(1) hue-rotate(144deg) saturate(1000%) brightness(115%);
 }
 a[href="/"]{ /*BROFIST.IO*/
-	margin-right:auto;
-	font-family: inherit!important;
+    margin-right:auto;
+    font-family: inherit!important;
 }
 div[style="background: #f5f5f5;width: 100%;float: left;height: 50px;margin-top: 14px;"] div{ /*signIn и singUp*/
-	color: var(--text-color)!important;
+    color: var(--text-color)!important;
 }
 div[style="float: right;width: 47px;border: 1px solid;border-radius: 113px;margin-right: 4px;cursor: pointer;background: white;position: relative;display: inherit;height: 48px;"]{ /*аватар на верхней панели*/
-	background: var(--text-color)!important;
-	border: 1px solid var(--text-color)!important;
-	position: relative;
-	top: 5px;
-	padding: 0!important;
-	margin: 0 5px!important;
-	width: 50px!important;
-	height: 50px!important;
+    background: var(--text-color)!important;
+    border: 1px solid var(--text-color)!important;
+    position: relative;
+    top: 5px;
+    padding: 0!important;
+    margin: 0 5px!important;
+    width: 50px!important;
+    height: 50px!important;
 	/*by Bro_MeoW*/
 }
 div[style="float: right;width: 47px;border: 1px solid;border-radius: 113px;margin-right: 4px;cursor: pointer;background: white;position: relative;display: inherit;height: 48px;"] img{
-	left: 1px!important;
+    left: 1px!important;
 }
 div[style="z-index: 1; float: right; margin-top: 52px; position: relative; left: 46px; top: -2px; background: rgb(245, 245, 245); display: block;"]{ /*раскрывающееся меню под аватаром*/
-	position: absolute;
-	top:25px!important;
-	left: 62px!important;
-	background: var(--accent-color-2)!important;
-	box-shadow: 5px 5px 5px #0f0f0f90;
-	border-radius: 8px;
+    position: absolute;
+    top:25px!important;
+    left: 62px!important;
+    background: var(--accent-color-2)!important;
+    box-shadow: 5px 5px 5px #0f0f0f90;
+    border-radius: 8px;
 }
 div[style="z-index: 1; float: right; margin-top: 52px; position: relative; left: 46px; top: -2px; background: rgb(245, 245, 245); display: block;"]:before{
-	position: absolute;
-	right: 18px;
-	top: -10px;
-	content: ' ';
-	height: 25px;
-	width: 25px;
-	background-color: var(--accent-color-2);
-	transform: rotate(45deg);
-	z-index: -99999999;
+    position: absolute;
+    right: 18px;
+    top: -10px;
+    content: ' ';
+    height: 25px;
+    width: 25px;
+    background-color: var(--accent-color-2);
+    transform: rotate(45deg);
+    z-index: -99999999;
 }
 div[style="float: left;width: 100%;margin-top: 50px;padding: 6px 0px;margin-bottom: 18px;border-radius: 5px;/* background: grey; */border: 1px solid #ccc;"]{ /* нижняя панель-меню */
-	background: var(--primary-color)!important;
-	border: 2px solid var(--accent-color-2)!important;
-	margin: 50px 0 16px 0!important;
+    background: var(--primary-color)!important;
+    border: 2px solid var(--accent-color-2)!important;
+    margin: 50px 0 16px 0!important;
 }
 div[style="float: left;width: 100%;margin-top: 50px;padding: 6px 0px;margin-bottom: 18px;border-radius: 5px;/* background: grey; */border: 1px solid #ccc;"] > div:nth-child(2){ /*feedback|copyright*/
-	width: 100%!important;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	background: none!important;
+    width: 100%!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: none!important;
 }
 div[style="float: left;width: 100%;margin-top: 50px;padding: 6px 0px;margin-bottom: 18px;border-radius: 5px;/* background: grey; */border: 1px solid #ccc;"] > div:nth-child(2) a{
-	color: #908f8f!important;
+    color: #908f8f!important;
 }
 .card{ /*карточки режимов*/
-	text-decoration: none;
-	display: block;
-	margin: 11%;
-	background: var(--primary-color);
-	border: 2px solid var(--accent-color-2)!important;
-	border-radius: 5px!important;
-	box-shadow: 5px 5px 5px #0f0f0f90!important;
-	transition: 0.2s;
+    text-decoration: none;
+    display: block;
+    margin: 11%;
+    background: var(--primary-color);
+    border: 2px solid var(--accent-color-2)!important;
+    border-radius: 5px!important;
+    box-shadow: 5px 5px 5px #0f0f0f90!important;
+    transition: 0.2s;
 }
 .card img{
-	width: 100%;
+    width: 100%;
     border-radius: 5px 5px 0 0!important;
     border-bottom: 2px solid var(--accent-color-2);
     background: white;
@@ -149,12 +149,12 @@ div[style="float: left;width: 100%;margin-top: 50px;padding: 6px 0px;margin-bott
 }
 /**********РЕЖИМЫ**********/
 .slide img{ /*слайдер*/
-	background: white;
+    background: white;
 }
 .playButton, #saveButton{ /*кнопки Play и Save*/
-	box-sizing: border-box;
-	width: 175px;
-	height: 50px;
+    box-sizing: border-box;
+    width: 175px;
+    height: 50px;
     cursor: pointer;
     text-align: center;
     color: var(--secondary-color)!important;
@@ -165,30 +165,30 @@ div[style="float: left;width: 100%;margin-top: 50px;padding: 6px 0px;margin-bott
     border: none!important;
 }
 .playButton:hover, .avatarButton:hover, #saveButton:hover{
-	transform: translateY(2px);
+    transform: translateY(2px);
 	/*transition: 1s;*/
 }
 .avatarButton{ /*кнопка Avatar*/
-	box-sizing: border-box;
-	width: 175px;
-	height: 50px;
-	background: var(--primary-color)!important;
-	border: 2px solid var(--accent-color-1);
-	padding: 10px!important;
-	border-radius: 5px;
+    box-sizing: border-box;
+    width: 175px;
+    height: 50px;
+    background: var(--primary-color)!important;
+    border: 2px solid var(--accent-color-1);
+    padding: 10px!important;
+    border-radius: 5px;
 }
 .contentContainer{ /*таблица "about/rooms"*/
-	border: 2px solid var(--accent-color-2);
-	box-shadow: none!important;
+    border: 2px solid var(--accent-color-2);
+    box-shadow: none!important;
 }
 .button{ /*таблица "about/rooms" > кнопки*/
-	background: var(--primary-color)!important;
+    background: var(--primary-color)!important;
 }
 .about{ /*таблица "about/rooms" > кнопка about*/
-	border-radius: 7px 0 0 0;
+    border-radius: 7px 0 0 0;
 }
 .rooms{ /*таблица "about/rooms" > кнопка rooms*/
-	border-radius: 0 7px 0 0;
+    border-radius: 0 7px 0 0;
 }
 .contentContainer .roomsContent .join{ /*таблица "about/rooms" > кнопки join*/
     border: 1px solid var(--text-color);
@@ -365,6 +365,17 @@ div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizi
 div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div + div > div:nth-child(2) div div:nth-child(3):hover{
 	border: 1px solid rgb(255, 72, 72)!important;
 	background: rgb(255, 72, 72)!important;
+	color: var(--secondary-color)!important;
+}
+div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(2) div[style*="width: 55px;"]{
+	margin: 4px 3px!important;
+	background: none!important;
+	border: 1px solid rgb(46, 190, 52)!important;
+	color: rgb(46, 190, 52)!important;
+}
+div[style="float: left;width: 100%;background: #ffffff;margin-top: 27px;box-sizing: border-box;border-color: #ccc;border-radius: 7px;"] + div > div:nth-child(2) div[style*="width: 55px;"]:hover{
+	border: 1px solid rgb(46, 190, 52)!important;
+	background: rgb(46, 190, 52)!important;
 	color: var(--secondary-color)!important;
 }
 /*кнопки листания страниц*/
