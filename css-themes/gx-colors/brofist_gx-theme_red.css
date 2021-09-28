@@ -59,7 +59,7 @@ img[src="/img/icons/menu.svg"]{ /*кнопка с тремя полосками*
     position: relative;
     top: 17px;
     padding: 0 12px!important;
-    filter: invert(1) brightness(50%) sepia(1) hue-rotate(308deg) saturate(1000%) brightness(115%);
+    filter: invert(1) brightness(50%) sepia(1) hue-rotate(307deg) saturate(1000%) brightness(96%);
 }
 a[href="/"]{ /*BROFIST.IO*/
     margin-right:auto;
