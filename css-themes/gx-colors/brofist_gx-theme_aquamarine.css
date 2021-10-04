@@ -484,9 +484,6 @@ table[cellpadding="10"] tr > td:nth-child(5) > div:hover{
     color: var(--accent-color-1);
 }
 /*таблица в конце раунда*/
-#leaderboard + div{
-    display: inherit!important;
-}
 #leaderboard + div > div:nth-child(2){
     background: var(--secondary-color)!important;
     border: 2px solid var(--accent-color-2)!important;
