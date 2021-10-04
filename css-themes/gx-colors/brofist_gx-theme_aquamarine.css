@@ -1,10 +1,10 @@
 /* v1.4 by Bro_MeoW */
 :root{
-	--primary-color: #122425;
-	--secondary-color: #14111a;
-	--accent-color-1: #00ffa2;
-	--accent-color-2: #0a885e;
-	--text-color: #dcddde;
+    --primary-color: #122425;
+    --secondary-color: #14111a;
+    --accent-color-1: #00ffa2;
+    --accent-color-2: #0a885e;
+    --text-color: #dcddde;
 }
 body{
     font-family: "Comic Sans MS", "Comic Sans"!important;
