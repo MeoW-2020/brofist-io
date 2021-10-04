@@ -488,21 +488,23 @@ table[cellpadding="10"] tr > td:nth-child(5) > div:hover{
     display: inherit!important;
 }
 #leaderboard + div > div:nth-child(2){
-     background: var(--secondary-color)!important;
-     border: 2px solid var(--accent-color-2)!important;
+    background: var(--secondary-color)!important;
+    border: 2px solid var(--accent-color-2)!important;
 }
 #leaderboard + div > div:nth-child(2) > div:nth-child(3) > div{
-     color: var(--text-color)!important;
+    color: var(--text-color)!important;
 }
 #leaderboard + div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) {
-     background: var(--primary-color)!important;
-     /*border: 1px solid var(--accent-color-1)!important;*/
+    background: var(--primary-color)!important;
+    color: var(--accent-color-1)!important;
+    border: 1px solid var(--accent-color-1)!important;
+    border-radius: 3px;
 }
 #teamsContainer{
-     background: none!important;
+    background: none!important;
 }
 #timerSlot{
-     color: var(--accent-color-1)!important;
+    color: var(--accent-color-1)!important;
 }
 /**********ОКНА**********/
 .menuOverlay .buttonsContainer{
@@ -559,7 +561,7 @@ table[cellpadding="10"] tr > td:nth-child(5) > div:hover{
 .menuOverlay .buttonsContainer div[style*="text-align: center; font-size: 12px; color: red;"]{
     margin: 0px 0px 15px;
 }
-.cross, div[style*="width: 204px; margin: auto; inset: 0px; padding: 3px 22px; color: rgb(45, 45, 45); position: fixed; background: white; border-radius: 6px;"] div:nth-child(2){
+.cross, #cross, div[style*="width: 204px; margin: auto; inset: 0px; padding: 3px 22px; color: rgb(45, 45, 45); position: fixed; background: white; border-radius: 6px;"] div:nth-child(2){
     box-sizing: border-box;
     border: 2px solid var(--accent-color-2)!important;
     width: 32px;
@@ -574,7 +576,7 @@ table[cellpadding="10"] tr > td:nth-child(5) > div:hover{
     color: var(--accent-color-2)!important;
     background: var(--primary-color)!important;
 }
-.cross:hover,  div[style*="width: 204px; margin: auto; inset: 0px; padding: 3px 22px; color: rgb(45, 45, 45); position: fixed; background: white; border-radius: 6px;"] div:nth-child(2):hover{
+.cross:hover, #cross:hover,  div[style*="width: 204px; margin: auto; inset: 0px; padding: 3px 22px; color: rgb(45, 45, 45); position: fixed; background: white; border-radius: 6px;"] div:nth-child(2):hover{
     border: 2px solid var(--accent-color-1)!important;
     color: var(--accent-color-1)!important;
 }
