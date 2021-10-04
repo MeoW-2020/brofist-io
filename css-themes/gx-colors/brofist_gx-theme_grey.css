@@ -1,4 +1,4 @@
-/* v1.3 by Bro_MeoW */
+/* v1.4 by Bro_MeoW */
 :root{
     --primary-color: #222028;
     --secondary-color: #14111a;
@@ -482,6 +482,27 @@ table[cellpadding="10"] tr > td:nth-child(5) > div:hover{
     padding-top: 5px!important;
     box-shadow: #00000075 0px 0px 45px 10px!important;
     color: var(--accent-color-1);
+}
+/*таблица в конце раунда*/
+#leaderboard + div{
+    display: inherit!important;
+}
+#leaderboard + div > div:nth-child(2){
+     background: var(--secondary-color)!important;
+     border: 2px solid var(--accent-color-2)!important;
+}
+#leaderboard + div > div:nth-child(2) > div:nth-child(3) > div{
+     color: var(--text-color)!important;
+}
+#leaderboard + div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(1) {
+     background: var(--primary-color)!important;
+     /*border: 1px solid var(--accent-color-1)!important;*/
+}
+#teamsContainer{
+     background: none!important;
+}
+#timerSlot{
+     color: var(--accent-color-1)!important;
 }
 /**********ОКНА**********/
 .menuOverlay .buttonsContainer{
