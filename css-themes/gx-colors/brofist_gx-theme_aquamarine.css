@@ -414,6 +414,9 @@ table[cellpadding="10"]{
 table[cellpadding="10"] tr[style=" border-bottom: 1px solid; color: rgb(33, 150, 243);"]{
     color: var(--accent-color-1)!important;
 }
+table[cellpadding="10"] th:nth-child(5){
+	width: 150px;
+}
 table[cellpadding="10"] th:nth-child(5) > div > div[style*="width: 30px;"]{ /*кнопки листания страниц*/
     box-sizing: border-box;
     width: 32px!important;
