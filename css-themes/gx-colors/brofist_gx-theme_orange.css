@@ -1,4 +1,4 @@
-/* v1.4.1 by Bro_MeoW */
+/* v1.4.2 by Bro_MeoW */
 :root{
     --primary-color: #26191b;
     --secondary-color: #14111a;
@@ -124,7 +124,7 @@ div[style="float: left;width: 100%;margin-top: 50px;padding: 6px 0px;margin-bott
     background: var(--primary-color);
     border: 2px solid var(--accent-color-2)!important;
     border-radius: 5px!important;
-    box-shadow: 5px 5px 5px #0f0f0f90!important;
+    box-shadow: none!important;
     transition: 0.2s;
 }
 .card img{
